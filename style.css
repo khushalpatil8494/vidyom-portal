@@ -101,3 +101,41 @@ nav a {
 .note {
   color: yellow;
 }
+
+.vidyom-purpose-section {
+  background: #8db3ec;
+  padding: 30px;
+  border-radius: 10px;
+  margin: 20px;
+  text-align: center;
+}
+
+.vidyom-purpose-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.vidyom-purpose-card {
+  width: 400px;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.vidyom-purpose-card:hover {
+  transform: translateY(-5px);
+}
+
+.vidyom-purpose-card h3 {
+  color: #00bcd4;
+  margin-bottom: 10px;
+}
+
+.vidyom-purpose-card p {
+  font-size: 14px;
+  color: #333;
+}
